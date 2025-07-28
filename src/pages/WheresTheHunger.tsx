@@ -16,14 +16,6 @@ const WheresTheHunger = () => {
     }
   };
 
-  const hungerData = [
-    { country: "Yemen", population: 17.4, percentage: 58 },
-    { country: "Madagascar", population: 1.14, percentage: 42 },
-    { country: "Afghanistan", population: 18.9, percentage: 47 },
-    { country: "Somalia", population: 4.1, percentage: 25 },
-    { country: "Syria", population: 12.4, percentage: 60 },
-  ];
-
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -33,7 +25,7 @@ const WheresTheHunger = () => {
             Where's the Hunger
           </h1>
           <p className="text-xl text-muted-foreground text-center mb-12">
-            Visualizing global hunger patterns to understand where action is needed most
+            Global hunger by country - click on markers to see details
           </p>
 
           {!showMap ? (
@@ -62,26 +54,10 @@ const WheresTheHunger = () => {
               <MapContainer 
                 mapboxToken={mapboxToken} 
                 type="hunger"
-                title="Global Hunger Heatmap"
+                title="Global Hunger by Country"
               />
             </div>
           )}
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {hungerData.map((item, index) => (
-              <Card key={index} className="border-destructive/20">
-                <CardContent className="p-6">
-                  <h3 className="text-xl font-bold text-foreground mb-2">{item.country}</h3>
-                  <p className="text-2xl font-bold text-destructive mb-1">
-                    {item.population}M people
-                  </p>
-                  <p className="text-muted-foreground">
-                    {item.percentage}% of population facing hunger
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
         </div>
       </main>
       <Footer />
