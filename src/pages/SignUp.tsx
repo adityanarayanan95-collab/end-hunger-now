@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { SubscriptionPlans } from "@/components/SubscriptionPlans";
+import { WaitlistForm } from "@/components/WaitlistForm";
 
 const SignUp = () => {
   return (
@@ -15,14 +15,18 @@ const SignUp = () => {
             Join the subscription service that will solve world hunger city by city, 
             for the luxury of living in a world where nobody starves to death.
           </p>
-        </div>
-        
-        <SubscriptionPlans />
-        
-        <div className="max-w-2xl mx-auto mt-16 text-center">
-          <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-muted-foreground mb-8">
             The UN estimates world hunger costs $3 billion per month to solve. 
             Together, we can make this a reality through subscription-based action.
+          </p>
+        </div>
+        
+        <WaitlistForm />
+        
+        <div className="max-w-2xl mx-auto mt-16 text-center">
+          <p className="text-sm text-muted-foreground">
+            We'll only charge your card once we have enough subscribers to launch and start operations.
+            Your contribution will directly fund the purchase and distribution of food in cities worldwide.
           </p>
         </div>
       </main>
