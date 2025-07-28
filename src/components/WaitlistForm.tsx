@@ -41,7 +41,7 @@ export const WaitlistForm = () => {
       // Show success message
       toast({
         title: "Welcome to the waitlist!",
-        description: "We'll notify you when we have enough subscribers to launch.",
+        description: "Welcome to the club! We'll notify you when we're ready to launch.",
       });
       
       setIsSubmitted(true);
@@ -67,9 +67,9 @@ export const WaitlistForm = () => {
     return (
       <div className="max-w-md mx-auto text-center p-8 bg-white rounded-lg shadow-lg">
         <div className="text-green-600 text-5xl mb-4">✓</div>
-        <h3 className="text-2xl font-bold text-earth mb-4">You're on the waitlist!</h3>
+        <h3 className="text-2xl font-bold text-earth mb-4">You're in the club!</h3>
         <p className="text-muted-foreground mb-6">
-          We'll email you when we have enough subscribers to launch and start ending world hunger together.
+          We'll email you when we have enough club members to launch and start ending world hunger together.
         </p>
         <Button 
           onClick={() => setIsSubmitted(false)}
@@ -84,7 +84,7 @@ export const WaitlistForm = () => {
   return (
     <div className="max-w-md mx-auto bg-white rounded-lg shadow-lg p-8">
       <div className="text-center mb-8">
-        <h2 className="text-3xl font-bold text-earth mb-2">Join the Waitlist</h2>
+        <h2 className="text-3xl font-bold text-earth mb-2">Join the Club</h2>
         <p className="text-muted-foreground">
           Help us reach the critical mass needed to end world hunger forever
         </p>
@@ -188,7 +188,7 @@ export const WaitlistForm = () => {
           disabled={isSubmitting}
           variant="hero"
         >
-          {isSubmitting ? "Joining Waitlist..." : "Join the Waitlist"}
+          {isSubmitting ? "Joining the Club..." : "Join the Club"}
         </Button>
       </form>
 

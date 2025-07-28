@@ -6,7 +6,7 @@ const SignUp = () => {
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#fcfbf8' }}>
       <Header />
-      <main className="container mx-auto px-4 py-16">
+      <main className="container mx-auto px-4 py-24">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
             End World Hunger Forever
