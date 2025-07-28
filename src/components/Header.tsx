@@ -18,20 +18,23 @@ export const Header = () => {
           
           <nav className="hidden md:flex items-center space-x-8">
             <a 
-              href="#how-it-works" 
+              href="/how-it-works" 
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               How It Works
             </a>
             <a 
-              href="#subscription-plans" 
+              href="/wheres-the-hunger" 
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Plans
+              Where's the Hunger
             </a>
-            <Button variant="default" size="sm">
-              Sign In
-            </Button>
+            <a 
+              href="/meals-served" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Meals Served
+            </a>
           </nav>
           
           <div className="md:hidden">

@@ -57,6 +57,7 @@ export default {
 				nourish: 'hsl(var(--nourish-orange))',
 				trust: 'hsl(var(--trust-blue))',
 				earth: 'hsl(var(--earth-brown))',
+				'clean-bg': 'hsl(var(--clean-background))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
