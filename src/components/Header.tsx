@@ -6,7 +6,7 @@ export const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-3">
+          <a href="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity cursor-pointer">
             <div className="w-10 h-10 bg-gradient-to-r from-hope to-trust rounded-full flex items-center justify-center">
               <Globe className="w-6 h-6 text-white" />
             </div>
@@ -14,7 +14,7 @@ export const Header = () => {
               <h1 className="text-xl font-bold text-foreground">End Hunger Forever</h1>
               <p className="text-xs text-muted-foreground">Subscription to solve world hunger</p>
             </div>
-          </div>
+          </a>
           
           <nav className="hidden md:flex items-center space-x-8">
             <a 
