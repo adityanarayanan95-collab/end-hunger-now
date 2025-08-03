@@ -9,10 +9,6 @@ import { useToast } from "@/hooks/use-toast";
 
 const waitlistSchema = z.object({
   email: z.string().email("Please enter a valid email address"),
-  amount: z.string().min(1, "Please enter an amount").refine((val) => {
-    const num = parseFloat(val);
-    return !isNaN(num) && num > 0;
-  }, "Amount must be a positive number"),
   cardNumber: z.string().min(16, "Card number must be at least 16 digits").max(19, "Card number is too long"),
   expiryDate: z.string().regex(/^(0[1-9]|1[0-2])\/\d{2}$/, "Please enter MM/YY format"),
   cvv: z.string().min(3, "CVV must be at least 3 digits").max(4, "CVV is too long"),
@@ -86,7 +82,7 @@ export const WaitlistForm = () => {
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-earth mb-2">Join the Club</h2>
         <p className="text-muted-foreground">
-          Help us reach the critical mass needed to end world hunger forever
+          $1000/month for 100 meals delivered to your door
         </p>
       </div>
 
@@ -101,21 +97,6 @@ export const WaitlistForm = () => {
           />
           {errors.email && (
             <p className="text-sm text-destructive">{errors.email.message}</p>
-          )}
-        </div>
-
-        <div className="space-y-2">
-          <Label htmlFor="amount">Monthly Contribution ($)</Label>
-          <Input
-            id="amount"
-            type="number"
-            placeholder="25"
-            min="1"
-            step="0.01"
-            {...register("amount")}
-          />
-          {errors.amount && (
-            <p className="text-sm text-destructive">{errors.amount.message}</p>
           )}
         </div>
 
