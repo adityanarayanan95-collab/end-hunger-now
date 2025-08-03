@@ -51,17 +51,19 @@ const MoralFiber = () => {
               <CardContent className="p-8">
                 <h2 className="text-2xl font-bold text-trust mb-4">Our Solution</h2>
                 <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                  We believe in creating a sustainable business model that we may be able to pay monthly (because people need food monthly) for the luxury of living 
-                  in a world where nobody starves to death, us included.
+                  We believe the answer lies in creating a sustainable business model that serves both paying customers 
+                  and those in need, for the luxury of living in a world where nobody starves to death, us included.
                 </p>
                 
                 <h3 className="text-xl font-semibold text-trust mb-4">Operational Framework</h3>
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  The company would manage the problem city by city. In each city, the company would take the subscription payments, buy all of the about-to-expire groceries from all 
-                  the grocery stores within the city, pay grocery stores to ship the food to all of the religious 
-                  institutions throughout the city, and then pay the religious institutions to cook and serve the food 
-                  for all of the people. This is how the company would run operationally. And as this is done throughout 
-                  the planet, world hunger's done, forever.
+                  Our philanthropic wing operates alongside our premium meal delivery service. While premium members 
+                  ($1000/month for 100 meals) receive drone delivery to their homes, we simultaneously ensure that 
+                  anyone in need can access the same high-quality meals at our partner religious institutions for free. 
+                  The company manages this city by city, taking rescued about-to-expire groceries from grocery stores, 
+                  shipping the food to religious institutions throughout each city, and paying these institutions to 
+                  cook and serve meals for everyone - both premium subscribers and those experiencing hunger. This dual 
+                  approach creates a sustainable model where business success directly funds our mission to end hunger forever.
                 </p>
               </CardContent>
             </Card>
