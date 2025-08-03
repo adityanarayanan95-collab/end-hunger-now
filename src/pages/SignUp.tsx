@@ -9,15 +9,15 @@ const SignUp = () => {
       <main className="container mx-auto px-4 py-24">
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
-            End World Hunger Forever
+            Join the Club
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Join the subscription service that will solve world hunger city by city, 
-            for the luxury of living in a world where nobody starves to death.
+            Get 100 fresh, cooked meals delivered monthly for $1000. 
+            Support sustainable food rescue while enjoying convenient, quality dining.
           </p>
           <p className="text-lg text-muted-foreground mb-8">
-            The UN estimates world hunger costs $3 billion per month to solve. 
-            Together, we can make this a reality through subscription-based action.
+            Our innovative model rescues about-to-expire food from grocery stores, 
+            partners with religious institutions for cooking, and delivers via drone technology.
           </p>
         </div>
         
@@ -25,8 +25,8 @@ const SignUp = () => {
         
         <div className="max-w-2xl mx-auto mt-16 text-center">
           <p className="text-sm text-muted-foreground">
-            We'll only charge your card once we have enough subscribers to launch and start operations.
-            Your contribution will directly fund the purchase and distribution of food in cities worldwide.
+            We'll only charge your card once we have enough subscribers to launch operations in your area.
+            Your membership supports both premium meal delivery service and our philanthropic mission to feed the hungry.
           </p>
         </div>
       </main>

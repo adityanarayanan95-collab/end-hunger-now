@@ -24,6 +24,12 @@ export const Header = () => {
               How It Works
             </a>
             <a 
+              href="/moral-fiber" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Moral Fiber
+            </a>
+            <a 
               href="/wheres-the-hunger" 
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
