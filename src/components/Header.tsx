@@ -12,7 +12,7 @@ export const Header = () => {
             </div>
             <div>
               <h1 className="text-xl font-bold text-foreground">Myshkin</h1>
-              <p className="text-xs text-muted-foreground">End Your Hunger For Forever</p>
+              <p className="text-xs text-muted-foreground">End Hunger For Forever</p>
             </div>
           </a>
           
