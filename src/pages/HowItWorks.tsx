@@ -12,7 +12,7 @@ const HowItWorks = () => {
             How It Works
           </h1>
           <p className="text-xl text-muted-foreground text-center mb-12">
-            Our innovative meal delivery service powered by food rescue and drone technology
+            Our meal delivery service is powered by food rescue, religious infrastructure and drone technology
           </p>
 
           <div className="space-y-8">
