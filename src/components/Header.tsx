@@ -11,7 +11,7 @@ export const Header = () => {
               <Globe className="w-6 h-6 text-white" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">End Hunger Forever</h1>
+              <h1 className="text-xl font-bold text-foreground">End Your Hunger</h1>
               <p className="text-xs text-muted-foreground">Subscription to solve world hunger</p>
             </div>
           </a>
