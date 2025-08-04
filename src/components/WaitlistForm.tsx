@@ -82,7 +82,7 @@ export const WaitlistForm = () => {
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold text-earth mb-2">Join the Club</h2>
         <p className="text-muted-foreground">
-          $1000/month for 100 meals delivered to your door
+          $1000/month for 100 meals delivered to your door whenever you'd like
         </p>
       </div>
 
