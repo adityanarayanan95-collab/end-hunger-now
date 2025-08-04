@@ -12,7 +12,7 @@ const SignUp = () => {
             Join the Club
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Get 100 fresh, cooked meals, delivered whenever you'd like, for $1000 per month. 
+            Order up to 100 meals for $1000 per month. 
             Support sustainable food rescue while enjoying convenient, quality dining.
           </p>
         </div>
