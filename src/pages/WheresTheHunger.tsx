@@ -8,22 +8,27 @@ import { MapContainer } from "@/components/MapContainer";
 
 const WheresTheHunger = () => {
   const hungerData = [
-    { country: "Yemen", population: 17.4, percentage: 58 },
-    { country: "Afghanistan", population: 18.9, percentage: 47 },
-    { country: "Somalia", population: 4.1, percentage: 25 },
-    { country: "Syria", population: 12.4, percentage: 60 },
-    { country: "Madagascar", population: 1.14, percentage: 42 },
     { country: "South Sudan", population: 7.74, percentage: 63 },
-    { country: "Haiti", population: 4.5, percentage: 40 },
-    { country: "Chad", population: 5.4, percentage: 33 },
+    { country: "Syria", population: 12.4, percentage: 60 },
+    { country: "Yemen", population: 17.4, percentage: 58 },
     { country: "Central African Republic", population: 2.8, percentage: 58 },
+    { country: "Afghanistan", population: 18.9, percentage: 47 },
+    { country: "Madagascar", population: 1.14, percentage: 42 },
+    { country: "Haiti", population: 4.5, percentage: 40 },
+    { country: "Zambia", population: 5.8, percentage: 35 },
+    { country: "Chad", population: 5.4, percentage: 33 },
     { country: "Democratic Republic of Congo", population: 27.3, percentage: 31 },
-    { country: "Ethiopia", population: 20.4, percentage: 18 },
+    { country: "Mozambique", population: 8.2, percentage: 28 },
     { country: "Sudan", population: 11.7, percentage: 26 },
-    { country: "Nigeria", population: 25.0, percentage: 12 },
+    { country: "Somalia", population: 4.1, percentage: 25 },
+    { country: "Mali", population: 4.9, percentage: 24 },
+    { country: "Zimbabwe", population: 3.5, percentage: 23 },
     { country: "Pakistan", population: 43.0, percentage: 19 },
-    { country: "Bangladesh", population: 21.0, percentage: 13 },
-  ];
+    { country: "Ethiopia", population: 20.4, percentage: 18 },
+    { country: "Burkina Faso", population: 3.8, percentage: 17 },
+    { country: "India", population: 224.3, percentage: 16 },
+    { country: "Bangladesh", population: 21.0, percentage: 13 }
+  ].sort((a, b) => b.percentage - a.percentage);
 
   return (
     <div className="min-h-screen bg-background">
