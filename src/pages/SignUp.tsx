@@ -15,10 +15,6 @@ const SignUp = () => {
             Get 100 fresh, cooked meals delivered monthly for $1000. 
             Support sustainable food rescue while enjoying convenient, quality dining.
           </p>
-          <p className="text-lg text-muted-foreground mb-8">
-            Our innovative model rescues about-to-expire food from grocery stores, 
-            partners with religious institutions for cooking, and delivers via drone technology.
-          </p>
         </div>
         
         <WaitlistForm />
