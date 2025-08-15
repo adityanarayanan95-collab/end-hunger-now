@@ -44,11 +44,11 @@ const HowItWorks = () => {
 
             <Card className="border-hope/20">
               <CardHeader>
-                <CardTitle className="text-2xl text-hope">Drone Delivery Network</CardTitle>
+                <CardTitle className="text-2xl text-hope">Delivery Network</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  For our premium subscribers ($1000/month for 100 meals), we use cutting-edge drone technology 
+                  For our premium subscribers ($1000/month for 100 meals), we use cutting-edge technology 
                   to deliver fresh, hot meals directly to your location. This ensures fast, convenient delivery 
                   while minimizing our carbon footprint. Non-subscribers can still access meals by visiting 
                   our partner religious institutions directly.
