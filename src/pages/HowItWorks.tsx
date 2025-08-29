@@ -31,13 +31,11 @@ const HowItWorks = () => {
 
             <Card className="border-trust/20">
               <CardHeader>
-                <CardTitle className="text-2xl text-trust">Religious Institution Kitchens</CardTitle>
+                <CardTitle className="text-2xl text-trust">Ghost Kitchens</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground leading-relaxed">
-                  Our rescued food is delivered to religious institutions equipped with commercial kitchens. 
-                  These community partners prepare fresh, nutritious meals using the rescued ingredients. 
-                  This creates jobs, strengthens community bonds, and ensures every meal is made with care and attention to quality.
+                  Our rescued food is delivered to ghost kitchens. These community partners prepare fresh, nutritious meals using the rescued ingredients. They deliver excess meals to religious institutions throughout the city to make food accessible to all. This creates jobs, strengthens community bonds, and ensures every meal is made with care and attention to quality.
                 </p>
               </CardContent>
             </Card>
