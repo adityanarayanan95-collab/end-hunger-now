@@ -1,10 +1,8 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-
 const HowItWorks = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       <main className="container mx-auto px-4 pt-32 pb-16">
         <div className="max-w-4xl mx-auto">
@@ -21,11 +19,7 @@ const HowItWorks = () => {
                 <CardTitle className="text-2xl text-hope">Food Rescue Partnership</CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-muted-foreground leading-relaxed">
-                  We partner with grocery stores to rescue high-quality food that's approaching its expiration date. 
-                  Instead of letting this perfectly good food go to waste, we redirect it into our meal preparation network. 
-                  This sustainable approach reduces food waste while providing fresh ingredients for our meal service.
-                </p>
+                <p className="text-muted-foreground leading-relaxed">We partner with grocery stores to rescue high-quality food that's approaching its expiration date. Instead of letting this perfectly good food go to waste, we make use of it in our meal preparation network. This sustainable approach reduces food waste while providing fresh ingredients for our meal service.</p>
               </CardContent>
             </Card>
 
@@ -99,8 +93,6 @@ const HowItWorks = () => {
         </div>
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default HowItWorks;
