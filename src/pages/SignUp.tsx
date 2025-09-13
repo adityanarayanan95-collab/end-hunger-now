@@ -12,8 +12,7 @@ const SignUp = () => {
             Join the Club
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Order up to 100 meals for $1000 per month. 
-            Support sustainable food rescue while enjoying convenient, quality dining.
+            Order unlimited cooked meals, pay monthly
           </p>
         </div>
         
