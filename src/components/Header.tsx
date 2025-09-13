@@ -29,18 +29,6 @@ export const Header = () => {
             >
               Moral Fiber
             </a>
-            <a 
-              href="/wheres-the-hunger" 
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Where's the Hunger
-            </a>
-            <a 
-              href="/meals-served" 
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Meals Served
-            </a>
           </nav>
           
           <div className="md:hidden">
